@@ -1,0 +1,25 @@
+<div class="login-wrapper">
+  <div class="login-container">
+    <h2>Iniciar Sesión</h2>
+    <form>
+      <input
+        type="email"
+        name="email"
+        placeholder="Email"
+        [(ngModel)]="email"
+        required
+      />
+      <input
+        type="password"
+        name="password"
+        placeholder="Contraseña"
+        [(ngModel)]="password"
+        required
+      />
+      <button class="button" type="submit">Login</button>
+      <button class="button flat-button" type="button"> Registrarse</button>
+      
+    </form>
+    <p *ngIf="error" class="error">{{ error }}</p>
+  </div>
+</div>
