@@ -1,12 +1,52 @@
 import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable, tap } from 'rxjs';
+import { Router } from '@angular/router';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class AuthService {
-  private urlApi= '' 
+  private urlApi = 'https://localhost:7081/api/auth';
+  private role: string | null = null;
 
-  constructor() { }
+  constructor(private http: HttpClient, private router: Router) {}
 
-  login(email: string, password: string)
+  register(data: {
+    nombres: string;
+    email: string;
+    password: string;
+    rol: 'Solicitante';
+  }) {
+    return this.http.post(`${this.urlApi}/register`, data);
+  }
+
+  login(data: { email: string; password: string }): Observable<any> {
+    return this.http.post<{ token: string, role: string }>(`${this.urlApi}/login`, data).pipe(
+      tap((resp) => {
+        localStorage.setItem('token', resp.token);
+      })
+    );
+  }
+
+  setRole(role: string): void {
+    this.role = role;
+  }
+
+  getRole(): string | null {
+    return this.role;
+  }
+
+   getToken(): string | null {
+    return localStorage.getItem('token');
+  }
+
+  isAuthenticated(): boolean {
+    return !!this.getToken();
+  }
+
+  logout() {
+    localStorage.removeItem('token');
+    this.router.navigate(['/']);
+  }
 }

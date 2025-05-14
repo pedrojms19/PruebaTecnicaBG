@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d2006e;
+  padding: 1rem;
+  color: #ecf0f1;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-links button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #96014e;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-links button:hover {
+  background-color: #75013d;
+}
+
+.home-content {
+  padding: 2rem;
+  h1 {
+    margin-bottom: 1rem;
+  }
+}

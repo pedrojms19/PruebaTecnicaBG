@@ -1,23 +1,25 @@
 <div class="login-wrapper">
   <div class="login-container">
     <h2>Iniciar Sesión</h2>
-    <form>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
       <input
         type="email"
         name="email"
         placeholder="Email"
-        [(ngModel)]="email"
+        formControlName="email"
         required
       />
       <input
         type="password"
         name="password"
         placeholder="Contraseña"
-        [(ngModel)]="password"
+        formControlName="password"
         required
       />
       <button class="button" type="submit">Login</button>
-      <button class="button flat-button" type="button"> Registrarse</button>
+      <button class="button flat-button" type="button">
+        <a routerLink="/register">Registrarse</a>
+      </button>
       
     </form>
     <p *ngIf="error" class="error">{{ error }}</p>

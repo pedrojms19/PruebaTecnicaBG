@@ -62,7 +62,14 @@
 
 .login-container .flat-button:hover{
     background-color: transparent;
-    color: #96014e;
+}
+
+.login-container a{
+  color: #d2006e;
+}
+
+.login-container a:hover{
+  color: #96014e;
 }
 
 .login-container button:hover {

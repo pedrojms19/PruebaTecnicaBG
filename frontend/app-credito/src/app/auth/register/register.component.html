@@ -1,13 +1,10 @@
 <div class="register-wrapper">
   <div class="register-container">
     <h2>Registro</h2>
-    <form>
-      <input type="email" name="email" placeholder="Email" required />
-      <label for="dob">Nombre completo</label>
-      <input type="fullname" name="fullname" required />
-      <label for="dob">Fecha de nacimiento</label>
-      <input type="date" name="dob" placeholder="Fecha de nacimiento" />
-      <input
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <input type="email" formControlName="email" name="email" placeholder="Email" required />
+      <input type="fullname" formControlName="nombres" name="fullname" placeholder="Nombre completo" required />
+      <input formControlName="password"
         type="password"
         name="password"
         placeholder="Contraseña"
@@ -20,7 +17,7 @@
         required
       />
 
-      <button class="button" type="submit">Registrarse</button>
+      <button onClick="" class="button" type="submit">Registrarse</button>
     </form>
     <p *ngIf="error" class="error">{{ 1 }}</p>
   </div>
