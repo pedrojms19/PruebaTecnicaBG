@@ -1,0 +1,12 @@
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Domain\bin\Debug\net8.0\CreditApp.Domain.deps.json
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Domain\bin\Debug\net8.0\CreditApp.Domain.dll
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Domain\bin\Debug\net8.0\CreditApp.Domain.pdb
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Domain\obj\Debug\net8.0\CreditApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Domain\obj\Debug\net8.0\CreditApp.Domain.AssemblyInfoInputs.cache
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Domain\obj\Debug\net8.0\CreditApp.Domain.AssemblyInfo.cs
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Domain\obj\Debug\net8.0\CreditApp.Domain.csproj.CoreCompileInputs.cache
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Domain\obj\Debug\net8.0\CreditApp.Domain.sourcelink.json
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Domain\obj\Debug\net8.0\CreditApp.Domain.dll
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Domain\obj\Debug\net8.0\refint\CreditApp.Domain.dll
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Domain\obj\Debug\net8.0\CreditApp.Domain.pdb
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Domain\obj\Debug\net8.0\ref\CreditApp.Domain.dll

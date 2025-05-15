@@ -1,0 +1,16 @@
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Application\bin\Debug\net8.0\CreditApp.Application.deps.json
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Application\bin\Debug\net8.0\CreditApp.Application.dll
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Application\bin\Debug\net8.0\CreditApp.Application.pdb
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Application\bin\Debug\net8.0\CreditApp.Domain.dll
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Application\bin\Debug\net8.0\CreditApp.Domain.pdb
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Application\obj\Debug\net8.0\CreditApp.Application.csproj.AssemblyReference.cache
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Application\obj\Debug\net8.0\CreditApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Application\obj\Debug\net8.0\CreditApp.Application.AssemblyInfoInputs.cache
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Application\obj\Debug\net8.0\CreditApp.Application.AssemblyInfo.cs
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Application\obj\Debug\net8.0\CreditApp.Application.csproj.CoreCompileInputs.cache
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Application\obj\Debug\net8.0\CreditApp.Application.sourcelink.json
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Application\obj\Debug\net8.0\CreditAp.766A2EEA.Up2Date
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Application\obj\Debug\net8.0\CreditApp.Application.dll
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Application\obj\Debug\net8.0\refint\CreditApp.Application.dll
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Application\obj\Debug\net8.0\CreditApp.Application.pdb
+F:\PruebaTecnicaBG\backend\CreditApp\CreditApp.Application\obj\Debug\net8.0\ref\CreditApp.Application.dll

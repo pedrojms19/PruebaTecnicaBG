@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\PruebaTecnicaBG\\backend\\CreditApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7EBC2B39-4833-4833-8741-A49EFB67F5D8}|CreditApp.Infraestructure\\CreditApp.Infraestructure.csproj|f:\\pruebatecnicabg\\backend\\creditapp\\creditapp.infraestructure\\services\\solicitudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EBC2B39-4833-4833-8741-A49EFB67F5D8}|CreditApp.Infraestructure\\CreditApp.Infraestructure.csproj|solutionrelative:creditapp.infraestructure\\services\\solicitudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95CA5D71-850F-493C-B886-45814553E635}|CreditApp\\CreditApp.API.csproj|f:\\pruebatecnicabg\\backend\\creditapp\\creditapp\\controllers\\solicitudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95CA5D71-850F-493C-B886-45814553E635}|CreditApp\\CreditApp.API.csproj|solutionrelative:creditapp\\controllers\\solicitudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F454A0B1-84F9-4299-AF6B-495768EE5CF2}|CreditApp.Domain\\CreditApp.Domain.csproj|f:\\pruebatecnicabg\\backend\\creditapp\\creditapp.domain\\entities\\solicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F454A0B1-84F9-4299-AF6B-495768EE5CF2}|CreditApp.Domain\\CreditApp.Domain.csproj|solutionrelative:creditapp.domain\\entities\\solicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EBC2B39-4833-4833-8741-A49EFB67F5D8}|CreditApp.Infraestructure\\CreditApp.Infraestructure.csproj|f:\\pruebatecnicabg\\backend\\creditapp\\creditapp.infraestructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EBC2B39-4833-4833-8741-A49EFB67F5D8}|CreditApp.Infraestructure\\CreditApp.Infraestructure.csproj|solutionrelative:creditapp.infraestructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EBC2B39-4833-4833-8741-A49EFB67F5D8}|CreditApp.Infraestructure\\CreditApp.Infraestructure.csproj|f:\\pruebatecnicabg\\backend\\creditapp\\creditapp.infraestructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EBC2B39-4833-4833-8741-A49EFB67F5D8}|CreditApp.Infraestructure\\CreditApp.Infraestructure.csproj|solutionrelative:creditapp.infraestructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95CA5D71-850F-493C-B886-45814553E635}|CreditApp\\CreditApp.API.csproj|f:\\pruebatecnicabg\\backend\\creditapp\\creditapp\\controllers\\permissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95CA5D71-850F-493C-B886-45814553E635}|CreditApp\\CreditApp.API.csproj|solutionrelative:creditapp\\controllers\\permissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SolicitudController.cs",
+              "DocumentMoniker": "F:\\PruebaTecnicaBG\\backend\\CreditApp\\CreditApp\\Controllers\\SolicitudController.cs",
+              "RelativeDocumentMoniker": "CreditApp\\Controllers\\SolicitudController.cs",
+              "ToolTip": "F:\\PruebaTecnicaBG\\backend\\CreditApp\\CreditApp\\Controllers\\SolicitudController.cs",
+              "RelativeToolTip": "CreditApp\\Controllers\\SolicitudController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAEwB4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T21:55:43.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SolicitudService.cs",
+              "DocumentMoniker": "F:\\PruebaTecnicaBG\\backend\\CreditApp\\CreditApp.Infraestructure\\Services\\SolicitudService.cs",
+              "RelativeDocumentMoniker": "CreditApp.Infraestructure\\Services\\SolicitudService.cs",
+              "ToolTip": "F:\\PruebaTecnicaBG\\backend\\CreditApp\\CreditApp.Infraestructure\\Services\\SolicitudService.cs",
+              "RelativeToolTip": "CreditApp.Infraestructure\\Services\\SolicitudService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowD8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T15:52:31.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Solicitud.cs",
+              "DocumentMoniker": "F:\\PruebaTecnicaBG\\backend\\CreditApp\\CreditApp.Domain\\Entities\\Solicitud.cs",
+              "RelativeDocumentMoniker": "CreditApp.Domain\\Entities\\Solicitud.cs",
+              "ToolTip": "F:\\PruebaTecnicaBG\\backend\\CreditApp\\CreditApp.Domain\\Entities\\Solicitud.cs",
+              "RelativeToolTip": "CreditApp.Domain\\Entities\\Solicitud.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:20:30.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "F:\\PruebaTecnicaBG\\backend\\CreditApp\\CreditApp.Infraestructure\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CreditApp.Infraestructure\\Persistence\\AppDbContext.cs",
+              "ToolTip": "F:\\PruebaTecnicaBG\\backend\\CreditApp\\CreditApp.Infraestructure\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "CreditApp.Infraestructure\\Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:23:39.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "F:\\PruebaTecnicaBG\\backend\\CreditApp\\CreditApp.Infraestructure\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "CreditApp.Infraestructure\\Services\\UserService.cs",
+              "ToolTip": "F:\\PruebaTecnicaBG\\backend\\CreditApp\\CreditApp.Infraestructure\\Services\\UserService.cs",
+              "RelativeToolTip": "CreditApp.Infraestructure\\Services\\UserService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:23:35.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PermissionController.cs",
+              "DocumentMoniker": "F:\\PruebaTecnicaBG\\backend\\CreditApp\\CreditApp\\Controllers\\PermissionController.cs",
+              "RelativeDocumentMoniker": "CreditApp\\Controllers\\PermissionController.cs",
+              "ToolTip": "F:\\PruebaTecnicaBG\\backend\\CreditApp\\CreditApp\\Controllers\\PermissionController.cs",
+              "RelativeToolTip": "CreditApp\\Controllers\\PermissionController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T21:10:05.612Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

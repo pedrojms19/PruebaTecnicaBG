@@ -1,0 +1,30 @@
+## Build results
+bin/
+obj/
+out/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## ASP.NET
+appsettings.*.json
+appsettings.Development.json
+appsettings.Local.json
+
+## Secrets
+secrets.json
+
+## Others
+.vscode/
+*.db
+*.sqlite
+*.pdb
+*.log
+
+## dotnet tools
+/.tools/
+
+.vs/
