@@ -8,7 +8,6 @@ import { Router } from '@angular/router';
 })
 export class AuthService {
   private urlApi = 'https://localhost:7081/api/auth';
-  private role: string | null = null;
 
   constructor(private http: HttpClient, private router: Router) {}
 
@@ -22,22 +21,16 @@ export class AuthService {
   }
 
   login(data: { email: string; password: string }): Observable<any> {
-    return this.http.post<{ token: string, role: string }>(`${this.urlApi}/login`, data).pipe(
-      tap((resp) => {
-        localStorage.setItem('token', resp.token);
-      })
-    );
+    return this.http
+      .post<{ token: string}>(`${this.urlApi}/login`, data)
+      .pipe(
+        tap((resp) => {
+          localStorage.setItem('token', resp.token);
+        })
+      );
   }
 
-  setRole(role: string): void {
-    this.role = role;
-  }
-
-  getRole(): string | null {
-    return this.role;
-  }
-
-   getToken(): string | null {
+  getToken(): string | null {
     return localStorage.getItem('token');
   }
 
@@ -47,6 +40,6 @@ export class AuthService {
 
   logout() {
     localStorage.removeItem('token');
-    this.router.navigate(['/']);
+    this.router.navigate(['/'])
   }
 }

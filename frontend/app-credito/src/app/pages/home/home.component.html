@@ -1,7 +1,13 @@
 <nav class="navbar">
   <div class="navbar-brand">CreditApp</div>
   <div class="navbar-links">
-    <button *ngIf="userRole === 'Solicitante'" routerLink="/crear-solicitud">Crear nueva solicitud</button>
+    <button
+      *ngIf="userRole === 'Solicitante'"
+      routerLink="/home/crear-solicitud"
+      mat-button
+    >
+      Crear nueva solicitud
+    </button>
     <button (click)="logout()">Cerrar sesión</button>
   </div>
 </nav>
@@ -9,8 +15,8 @@
 <div class="home-content">
   @if (userRole === 'Solicitante'){
   <app-versolicitudes></app-versolicitudes>
-  }
-  @if (userRole === 'Analista'){
+  } @if (userRole === 'Analista'){
   <app-lista-solicitudes></app-lista-solicitudes>
   }
+  <router-outlet/>
 </div>

@@ -26,6 +26,11 @@ export class LoginComponent {
   }
 
   onSubmit(): void {
+    if(this.form.get('email')?.errors){
+      this.error= "Error al ingresar el email"
+    }
+
+
     if (this.form.valid) {
       this.authService.login(this.form.value).subscribe({
         next: () => this.router.navigate(['/home']),

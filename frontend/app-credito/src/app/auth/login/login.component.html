@@ -22,6 +22,8 @@
       </button>
       
     </form>
-    <p *ngIf="error" class="error">{{ error }}</p>
+    @if(error){
+      <p class="error-message">{{ error }}</p>      
+    }
   </div>
 </div>

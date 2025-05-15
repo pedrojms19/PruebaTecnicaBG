@@ -1,1 +1,101 @@
-<p>lista-solicitudes works!</p>
+@if(!isFetched){
+<p>Cargando...</p>
+} @else if (dataSource.data.length === 0 && isFetched) {
+<p>No hay solicitudes para mostrar</p>
+} @else{
+<mat-card>
+  <h2>Solicitudes de Crédito</h2>
+  <div class="filtros">
+    <mat-form-field appearance="fill">
+      <mat-label>Filtrar por estado</mat-label>
+      <mat-select
+        [(value)]="estadoSeleccionado"
+        (selectionChange)="aplicarFiltroEstado()"
+      >
+        <mat-option value="">Todos</mat-option>
+        <mat-option value="Aprobado">Aprobado</mat-option>
+        <mat-option value="Rechazado">Rechazado</mat-option>
+        <mat-option value="Pendiente">Pendiente</mat-option>
+        
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8">
+    <!-- ID -->
+    <ng-container matColumnDef="Usuario">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Usuario</th>
+      <td mat-cell *matCellDef="let solicitud">{{ solicitud.usuario.name }}</td>
+    </ng-container>
+
+    <!-- Monto -->
+    <ng-container matColumnDef="montoSolicitado">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Monto</th>
+      <td mat-cell *matCellDef="let solicitud">
+        ${{ solicitud.montoSolicitado | number : "1.2-2" }}
+      </td>
+    </ng-container>
+
+    <!-- Plazo -->
+    <ng-container matColumnDef="plazoEnMeses">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Plazo (meses)</th>
+      <td mat-cell *matCellDef="let solicitud">{{ solicitud.plazo }}</td>
+    </ng-container>
+
+    <!-- Ingreso -->
+    <ng-container matColumnDef="ingresoMensual">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Ingreso</th>
+      <td mat-cell *matCellDef="let solicitud">
+        ${{ solicitud.ingresoMensual | number : "1.2-2" }}
+      </td>
+    </ng-container>
+
+    <!-- Antigüedad -->
+    <ng-container matColumnDef="antiguedadLaboral">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Antigüedad</th>
+      <td mat-cell *matCellDef="let solicitud">
+        {{ solicitud.antiguedadLaboral }} años
+      </td>
+    </ng-container>
+
+    <!-- Estado -->
+    <ng-container matColumnDef="estado">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Estado</th>
+      <td mat-cell *matCellDef="let solicitud">{{ solicitud.estado }}</td>
+    </ng-container>
+
+    <!-- Acciones -->
+    <ng-container matColumnDef="acciones">
+      <th mat-header-cell *matHeaderCellDef>Acciones</th>
+      <td mat-cell *matCellDef="let solicitud">
+        <button
+          mat-button
+          class="optionButton"
+          color="primary"
+          (click)="cambiarEstado(solicitud.id, 'Aprobado')"
+          [disabled]="solicitud.estado === 'Aprobado'"
+        >
+          Aprobar
+        </button>
+        <button
+          mat-button
+          class="optionButton"
+          color="warn"
+          (click)="cambiarEstado(solicitud.id, 'Rechazado')"
+          [disabled]="solicitud.estado === 'Rechazado'"
+        >
+          Rechazar
+        </button>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="columnas"></tr>
+    <tr mat-row *matRowDef="let row; columns: columnas"></tr>
+  </table>
+
+  <mat-paginator
+    [pageSize]="5"
+    [pageSizeOptions]="[5, 10, 20]"
+    showFirstLastButtons
+  ></mat-paginator>
+</mat-card>
+}
