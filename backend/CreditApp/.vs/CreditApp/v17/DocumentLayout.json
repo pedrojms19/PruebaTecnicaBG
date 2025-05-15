@@ -46,8 +46,7 @@
               "RelativeToolTip": "CreditApp\\Controllers\\SolicitudController.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAEwB4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T21:55:43.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T21:55:43.376Z"
             },
             {
               "$type": "Document",
@@ -57,7 +56,7 @@
               "RelativeDocumentMoniker": "CreditApp.Infraestructure\\Services\\SolicitudService.cs",
               "ToolTip": "F:\\PruebaTecnicaBG\\backend\\CreditApp\\CreditApp.Infraestructure\\Services\\SolicitudService.cs",
               "RelativeToolTip": "CreditApp.Infraestructure\\Services\\SolicitudService.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowD8AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T15:52:31.067Z",
               "EditorCaption": ""
@@ -72,8 +71,7 @@
               "RelativeToolTip": "CreditApp.Domain\\Entities\\Solicitud.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T19:20:30.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T19:20:30.574Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "CreditApp.Infraestructure\\Persistence\\AppDbContext.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T19:23:39.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T19:23:39.931Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "CreditApp.Infraestructure\\Services\\UserService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T19:23:35.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T19:23:35.821Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "CreditApp\\Controllers\\PermissionController.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T21:10:05.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T21:10:05.612Z"
             }
           ]
         }
