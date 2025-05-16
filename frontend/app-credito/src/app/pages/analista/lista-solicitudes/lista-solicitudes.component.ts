@@ -12,6 +12,7 @@ import { MatSort } from '@angular/material/sort';
 import { MatCardModule } from '@angular/material/card';
 import { MatLabel } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
+import { ChangeDetectorRef } from '@angular/core';
 
 @Component({
   selector: 'app-lista-solicitudes',
@@ -44,7 +45,7 @@ export class ListaSolicitudesComponent {
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
-  constructor(private solicitudService: SolicitudService) {}
+  constructor(private solicitudService: SolicitudService, private cdr: ChangeDetectorRef) {}
 
   ngOnInit(): void {
     this.cargarSolicitudes();
@@ -55,9 +56,12 @@ export class ListaSolicitudesComponent {
       next: (data) => {
         console.log(data);
         this.dataSource.data = data;
+        this.isFetched = true;
+
+        this.cdr.detectChanges();
+
         this.dataSource.paginator = this.paginator;
         this.dataSource.sort = this.sort;
-        this.isFetched = true;
       },
       error: (err) =>
         (this.error = err.error?.message || 'Error al cargar solicitudes'),
